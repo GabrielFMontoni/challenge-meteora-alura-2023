@@ -36,6 +36,9 @@
         width: 80%;
         padding: 2.5rem;
     }
+    .categorias__titulo{
+        font-size: 30px;
+    }
     .camiseta{
         content: url("../img/Tablet/Categorias/Categoria\ camiseta.png");
     }

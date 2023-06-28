@@ -13,6 +13,7 @@
 .produtos__titulo{
     font-size: 28px;
     font-weight: 700;
+    color: #212529;
 }
 .produtos__item{
     text-align: start;
@@ -52,6 +53,9 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
+    }
+    .produtos__titulo{
+        font-size: 30px;
     }
     .produtos__subtitulo{
         font-size: 25px;
