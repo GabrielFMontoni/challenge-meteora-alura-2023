@@ -116,7 +116,7 @@ body{
     .cabecalho__logo{
         content: url("../img/Tablet/Logo\ tablet.png");
         width: auto;
-        height: 24px;
+        height: 30px;
     }
     .cabecalho__menu{
         margin-left: 1rem;
@@ -129,7 +129,7 @@ body{
         padding: 0;
         background-color: #000; 
         width: auto;
-        font-size: 15px;
+        font-size: 18px;
         position: inherit;
        
     }
@@ -154,14 +154,14 @@ body{
     
     .pesquisa__input{
         padding: 10px;
-        font-size: 13px;
+        font-size: 15px;
     }
     .pesquisa__botao{
         color: #fff;
         font-weight: 400;
         padding: 10px;
         border: 1px solid #fff;
-        font-size: 15px;
+        font-size: 18px;
     }
 }
 @media (min-width:1440px) {
