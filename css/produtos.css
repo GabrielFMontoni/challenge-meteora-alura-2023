@@ -67,16 +67,16 @@
        margin: 2rem 0;
     }
     .produtos__camiseta{
-        content: url("../img/Tablet/Imagens\ Cards/ camiseta.png");
+        content: url("../img/Tablet/Imagens\ Cards/camiseta.png");
     }
     .produtos__bolsa{
-        content: url("../img/Tablet/Imagens\ Cards/ bolsa.png");
+        content: url("../img/Tablet/Imagens\ Cards/bolsa.png");
     }
     .produtos__tenis{
-        content: url("../img/Tablet/Imagens\ Cards/ tenis.png");
+        content: url("../img/Tablet/Imagens\ Cards/tenis.png");
     }
     .produtos__calca{
-        content: url("../img/Tablet/Imagens\ Cards/ calça.png");
+        content: url("../img/Tablet/Imagens\ Cards/calça.png");
     }
     .produtos__jeans{
         content: url("../img/Tablet/Imagens\ Cards/jaqueta\ jeans.png");
@@ -120,16 +120,16 @@
            margin: 2rem 0;
         }
         .produtos__camiseta{
-            content: url("../img/Desktop/Imagens\ Cards/camiseta.png");
+            content: url("../img/Desktop/Imagens\ Cards/Camiseta.png");
         }
         .produtos__bolsa{
-            content: url("../img/Desktop/Imagens\ Cards/bolsa.png");
+            content: url("../img/Desktop/Imagens\ Cards/Bolsa.png");
         }
         .produtos__tenis{
-            content: url("../img/Desktop/Imagens\ Cards/tenis.png");
+            content: url("../img/Desktop/Imagens\ Cards/Tenis.png");
         }
         .produtos__calca{
-            content: url("../img/Desktop/Imagens\ Cards/calça.png");
+            content: url("../img/Desktop/Imagens\ Cards/Calça.png");
         }
         .produtos__jeans{
             content: url("../img/Desktop/Imagens\ Cards/Jaqueta.png");
