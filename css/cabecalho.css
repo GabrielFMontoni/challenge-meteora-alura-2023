@@ -109,6 +109,7 @@ body{
     .cabecalho{
         justify-content: start;
         padding: 1rem;
+        
     }
     .cabecalho__menu__hamburguer:checked ~ .menu{
         display: flex;
