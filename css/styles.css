@@ -1,0 +1,20 @@
+@import "reset.css";
+@import "cabecalho.css";
+@import "pesquisa.css";
+@import "carrossel.css";
+@import "produtos.css";
+@import "facilidades.css";
+@import "categorias.css";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap');
+
+
+:root{
+    --preto-primario: #000000;
+    --cinza-primario: #CCCCCC;
+    --amarelo-primario: #DAFF01;
+    --roxo-primario: #9353FF;
+    --vermelho-complementar: #EE6471;
+    --laranja-complementar: #F87F46;
+    --fonte-primaria: 'Inter', sans-serif;
+}
+

@@ -1,0 +1,140 @@
+.produtos{
+    text-align: center;
+}
+.produtos__flex{
+    padding-top: 2.5rem;
+    display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     gap: 2rem;
+}
+.produtos__titulo{
+    font-size: 28px;
+    font-weight: 700;
+}
+.produtos__item{
+    text-align: start;
+    width: 100%;
+    border: 1px solid var(--cinza-primario);
+}
+.produtos__item img{
+    width: 100%;
+}
+.produtos__subtitulo{
+    font-size: 16px;
+    font-weight: 700;
+}
+.produtos__texto{
+    font-size: 13px;
+    padding: 1rem 0;
+}
+.produtos__preco{
+    font-weight: 700;
+    padding-bottom: 1.75rem;
+}
+.produtos__botao{
+    background-color: var(--roxo-primario);
+    text-decoration: none;
+    padding: .75rem 1rem;
+
+    color: #FFF;
+}
+.produtos__caixa_texto{
+    padding: 1rem 1rem 2rem 1rem;
+    
+}
+
+@media (min-width:768px) {
+    
+    .produtos__flex{
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    }
+    .produtos__texto{
+        width: 95%;
+    }
+    .produtos__caixa_texto{
+        padding-bottom: 2rem;
+    }
+    .produtos__item{
+        width: 45%;
+        height: auto;
+    }
+    .produtos__botao{
+       margin: 2rem 0;
+    }
+    .produtos__camiseta{
+        content: url("../img/Tablet/Imagens\ Cards/camiseta.png");
+    }
+    .produtos__bolsa{
+        content: url("../img/Tablet/Imagens\ Cards/bolsa.png");
+    }
+    .produtos__tenis{
+        content: url("../img/Tablet/Imagens\ Cards/tenis.png");
+    }
+    .produtos__calca{
+        content: url("../img/Tablet/Imagens\ Cards/calça.png");
+    }
+    .produtos__jeans{
+        content: url("../img/Tablet/Imagens\ Cards/jaqueta\ jeans.png");
+    }
+    .produtos__oculos{
+        content: url("../img/Tablet/Imagens\ Cards/óculos.png");
+    }
+}
+
+@media (min-width:1440px) {
+      
+    .produtos__titulo{
+        padding-top: 3rem;
+    }
+    .produtos__flex{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        }
+        .produtos__subtitulo{
+            font-size: 23px;
+        }
+        .produtos__botao{
+            font-size: 18px;
+        }
+        .produtos__texto{
+            width: 95%;
+            font-size: 18px;
+        }
+        .produtos__preco{
+            font-size: 23px;
+        }
+        .produtos__caixa_texto{
+            padding-bottom: 2rem;
+        }
+        .produtos__item{
+            width: 30%;
+            height: auto;
+        }
+        .produtos__botao{
+           margin: 2rem 0;
+        }
+        .produtos__camiseta{
+            content: url("../img/Desktop/Imagens\ Cards/camiseta.png");
+        }
+        .produtos__bolsa{
+            content: url("../img/Desktop/Imagens\ Cards/bolsa.png");
+        }
+        .produtos__tenis{
+            content: url("../img/Desktop/Imagens\ Cards/tenis.png");
+        }
+        .produtos__calca{
+            content: url("../img/Desktop/Imagens\ Cards/calça.png");
+        }
+        .produtos__jeans{
+            content: url("../img/Desktop/Imagens\ Cards/Jaqueta.png");
+        }
+        .produtos__oculos{
+            content: url("../img/Desktop/Imagens\ Cards/óculos.png");
+        }
+    }

@@ -1,0 +1,46 @@
+.facilidades{
+    background-color: var(--preto-primario);
+    padding: 2rem 1.5rem;
+    color: #FFF;
+    text-align: center;
+    margin-top: 3.3125rem;
+}
+.facilidades__titulo{
+    font-size: 24px;
+    padding-bottom: 2rem;
+}
+.facilidades__item{
+    display: flex;
+    gap: 1.5rem;
+    text-align: start;
+}
+.facilidades__item img{
+    width: 56px;
+    height: 56px;
+}
+.facilidades__item__texto h1{
+    font-size: 16px;
+    color: var(--amarelo-primario);
+    font-weight: 700;
+}
+.facilidades__item__texto p{
+    font-weight: 200;
+    padding: 1rem 0 2rem 0;
+}
+
+@media (min-width:768px) {
+    .facilidades__item{
+        justify-content: center;
+        width: 28%;
+        margin: auto;
+    }
+}
+
+@media (min-width:1440px) {
+    .facilidades__item{
+        flex-direction: row;
+    }
+    .facilidades__flexbox{
+        display: flex;
+    }
+}

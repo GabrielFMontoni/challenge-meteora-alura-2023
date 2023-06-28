@@ -1,0 +1,85 @@
+.categorias{
+    text-align: center;
+    padding: 1.5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.categorias__escolhas{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    width: 87.5%;
+}
+.categorias__titulo{
+    color: #212529;
+    font-size: 28px;
+    font-weight: 700;   
+    padding-bottom: 1.5rem; 
+}
+.categorias__item{
+    display: flex;
+    flex-direction: column;
+    
+}
+.categorias__subtitulos{
+    background-color: #000;
+    color: #FFF;
+    padding: .5rem;
+}
+@media (min-width:768px) {
+    .categorias{
+        width: 80%;
+        padding: 2.5rem;
+    }
+    .camiseta{
+        content: url("../img/Tablet/Categorias/Categoria\ camiseta.png");
+    }
+    .bolsas{
+        content: url("../img/Tablet/Categorias/Categoria\ bolsas.png");
+    }
+    .calcados{
+        content: url("../img/Tablet/Categorias/Categoria\ calçados.png");
+    }
+    .calcas{
+        content: url("../img/Tablet/Categorias/Categoria\ calças.png");
+    }
+    .casacos{
+        content: url("../img/Tablet/Categorias/Categoria\ casacos.png");
+    }
+    .oculos{
+        content: url("../img/Tablet/Categorias/Categoria\ óculos.png");
+    }
+}
+
+@media (min-width:1440px) {
+    .categorias{
+        
+        padding: 4rem 0 0 0;
+    }
+    .categorias__escolhas{
+        width: 100%;
+    }
+    .camiseta{
+        content: url("../img/Desktop/Categorias/Categoria\ camiseta.png");
+    }
+    .bolsas{
+        content: url("../img/Desktop/Categorias/Categoria\ Bolsa.png");
+    }
+    .calcados{
+        content: url("../img/Desktop/Categorias/Categoria\ calçados.png");
+    }
+    .calcas{
+        content: url("../img/Desktop/Categorias/Categoria\ calça.png");
+    }
+    .casacos{
+        content: url("../img/Desktop/Categorias/Categoria\ casacos.png");
+    }
+    .oculos{
+        content: url("../img/Desktop/Categorias/Categoria\ óculos.png");
+    }
+} 
