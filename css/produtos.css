@@ -53,8 +53,15 @@
     flex-wrap: wrap;
     align-items: center;
     }
+    .produtos__subtitulo{
+        font-size: 25px;
+    }
+    .produtos__botao{
+        font-size: 25px;
+    }
     .produtos__texto{
         width: 90%;
+        font-size: 18px;
     }
     .produtos__caixa_texto{
         padding-bottom: 2rem;
