@@ -23,11 +23,11 @@
     width: 100%;
 }
 .produtos__subtitulo{
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
 }
 .produtos__texto{
-    font-size: 13px;
+    font-size: 15px;
     padding: 1rem 0;
 }
 .produtos__preco{
@@ -67,16 +67,16 @@
        margin: 2rem 0;
     }
     .produtos__camiseta{
-        content: url("../img/Tablet/Imagens\ Cards/camiseta.png");
+        content: url("../img/Tablet/Imagens\ Cards/ camiseta.png");
     }
     .produtos__bolsa{
-        content: url("../img/Tablet/Imagens\ Cards/bolsa.png");
+        content: url("../img/Tablet/Imagens\ Cards/ bolsa.png");
     }
     .produtos__tenis{
-        content: url("../img/Tablet/Imagens\ Cards/tenis.png");
+        content: url("../img/Tablet/Imagens\ Cards/ tenis.png");
     }
     .produtos__calca{
-        content: url("../img/Tablet/Imagens\ Cards/calça.png");
+        content: url("../img/Tablet/Imagens\ Cards/ calça.png");
     }
     .produtos__jeans{
         content: url("../img/Tablet/Imagens\ Cards/jaqueta\ jeans.png");
