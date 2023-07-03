@@ -23,6 +23,7 @@
 .newsletter__input{
     display: flex;
     justify-content: center;
+    flex-wrap: nowrap;
     align-items: center;
     
 
