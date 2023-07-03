@@ -44,6 +44,10 @@ body{
     width: 30%;
     padding: 1rem 1.5rem;
     z-index: 2  ;
+   
+}
+.menu a{
+    text-decoration: none;
 }
 
 .cabecalho__menu__item{
