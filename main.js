@@ -4,16 +4,21 @@ const subtitulo = document.querySelectorAll('.produtos__subtitulo')
 const preco = document.querySelectorAll('.produtos__preco')
 const texto = document.querySelectorAll('.produtos__texto')
 const modal = document.querySelector('.modal')
+const modalNewsletter = document.querySelector('.modal__newsletter')
+const botaoNewsletter = document.querySelector('.newsletter__botao')
 
-const closeModalBtn = document.querySelector('.close')
+const closeModalBtn = document.querySelectorAll('.close')
 
-closeModalBtn.addEventListener('click', () => modal.close());
+closeModalBtn[1].addEventListener('click', () => modal.close());
+closeModalBtn[0].addEventListener('click', () => modalNewsletter.close());
 
 for (let i = 0; i < botoes.length; i++) {
     botoes[i].addEventListener('click', () => {
       chamaModal(imagens[i], subtitulo[i], preco[i], texto[i]);
       modal.showModal();
     });
+    botaoNewsletter.addEventListener('click', ()=> modalNewsletter.showModal())
+
   }
 
 function chamaModal(imagem,sub,precoProduto, text){
