@@ -8,6 +8,7 @@
     <title>Meteora - Home</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="shortcut icon" href="img/Favicon-64px.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -56,40 +57,108 @@
 
     </header>
     <main>
-        <div class="pesquisa">
+        <form class="pesquisa">
             <input type="text" class="pesquisa__input" placeholder="Digite o produto" name="Pesquisar" id="pesquisa">
             <a href="#" class="pesquisa__botao">Search</a>
-        </div>
+        </form>
         <div class="carrossel">
-            <img src="img/Mobile/Banner carousel 1 _ 375.png" alt="Imagem do Carrossel 1" class="carrossel__imagem">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <picture>
+                            <source srcset="img/Desktop/Banner1_1440.png" media="(min-width:1200px)">
+                            <source srcset="img/Tablet/Banner1_768.png" media="(min-width:768px)">
+                            <img src="img/Mobile/Banner1_375.png" alt="Imagem do Carrossel 1" class="carrossel__imagem">
+                        </picture>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <source srcset="img/Desktop/Banner2_1440.png" media="(min-width:1200px)">
+                            <source srcset="img/Tablet/Banner2_768.png" media="(min-width:768px)">
+                            <img src="img/Mobile/Banner2_375.png" alt="Imagem do Carrossel 2"
+                                class="carrossel__imagem2">
+                        </picture>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <source srcset="img/Desktop/Banner3_1440.png" media="(min-width:1200px)">
+                            <source srcset="img/Tablet/Banner3_768.png" media="(min-width:768px)">
+                            <img src="img/Mobile/Banner3_375.png" alt="Imagem do Carrossel 3"
+                                class="carrossel__imagem3">
+                        </picture>
+                    </div>
+                    ...
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+            </div>
+
+
         </div>
         <div class="categorias">
             <h1 class="categorias__titulo">Busque por categoria:</h1>
             <ul class="categorias__escolhas">
                 <li class="categorias__item">
-                    <img src="img/Mobile/Categorias/Categoria camiseta.png" class="camiseta"
-                        alt="Categorias de Camiseta">
+                    <picture>
+                        <source srcset="img/Desktop/Categorias/Categoria_camiseta.png" media="(min-width:1400x)">
+                        <source srcset="img/Tablet/Categorias/Categoria_camiseta.png" media="(min-width:768px)">
+                        <img src="img/Mobile/Categorias/Categoria_camiseta.png" class="categorias__imagem"
+                            alt="Categorias de Camiseta">
+                    </picture>
                     <div class="categorias__subtitulos">Camisetas</div>
+
                 </li>
                 <li class="categorias__item">
-                    <img src="img/Mobile/Categorias/Categoria Bolsas.png" class="bolsas" alt="Categorias de Bolsas">
+                    <picture>
+                        <source srcset="img/Desktop/Categorias/Categoria_Bolsa.png" media="(min-width:1400px)">
+                        <source srcset="img/Tablet/Categorias/Categoria_Bolsas.png" media="(min-width:768px)">
+                        <img src="img/Mobile/Categorias/Categoria_Bolsas.png" class="categorias__imagem"
+                            alt="Categorias de Bolsas">
+                    </picture>
                     <div class="categorias__subtitulos">Bolsas</div>
                 </li>
                 <li class="categorias__item">
-                    <img src="img/Mobile/Categorias/Categoria calçados.png" class="calcados"
-                        alt="Categorias de Calçados">
+                    <picture>
+                        <source srcset="img/Desktop/Categorias/Categoria_Calçados.png" media="(min-width1400px)">
+                        <source srcset="img/Tablet/Categorias/Categoria_calçados.png" media="(min-width:768px)">
+                        <img src="img/Mobile/Categorias/Categoria_calçados.png" class="categorias__imagem"
+                            alt="Categorias de Calçados">
+                    </picture>
                     <div class="categorias__subtitulos">Calçados</div>
                 </li>
                 <li class="categorias__item">
-                    <img src="img/Mobile/Categorias/Categoria calças.png" class="calcas" alt="Categorias de Calças">
+                    <picture>
+                        <source srcset="img/Desktop/Categorias/Categoria_calça.png" media="(min-width:1400px)">
+                        <source srcset="img/Tablet/Categorias/Categoria_calças.png" media="(min-width:768px)">
+                        <img src="img/Mobile/Categorias/Categoria_calças.png" class="categorias__imagem"
+                            alt="Categorias de Calças">
+                    </picture>
                     <div class="categorias__subtitulos">Calças</div>
                 </li>
                 <li class="categorias__item">
-                    <img src="img/Mobile/Categorias/Categoria Casacos.png" class="casacos" alt="Categorias de Casacos">
+                    <picture>
+                        <source srcset="img/Desktop/Categorias/Categoria_casacos.png" media="(min-width:1400px)">
+                        <source srcset="img/Tablet/Categorias/Categoria_casacos.png" media="(min-width:768px)">
+                        <img src="img/Mobile/Categorias/Categoria_Casacos.png" class="categorias__imagem"
+                            alt="Categorias de Casacos">
+                    </picture>
                     <div class="categorias__subtitulos">Casacos</div>
                 </li>
                 <li class="categorias__item">
-                    <img src="img/Mobile/Categorias/Categoria óculos.png" class="oculos" alt="Categorias de Óculo">
+                    <picture>
+                        <source srcset="img/Desktop/Categorias/Categoria_óculos.png" media="(min-width:1400px)">
+                        <source srcset="img/Tablet/Categorias/Categoria_óculos.png" media="(min-width:768px)">
+                        <img src="img/Mobile/Categorias/Categoria_óculos.png" class="categorias__imagem"
+                            alt="Categorias de Óculos">
+                    </picture>
                     <div class="categorias__subtitulos">Óculos</div>
                 </li>
 
@@ -99,108 +168,259 @@
         <div class="produtos">
             <h1 class="produtos__titulo">Produtos que estão bombando!</h1>
             <div class="produtos__flex">
-            <div class="produtos__item">
-                <img src="img/Mobile/Imagens cards/Card camiseta.png" class="produtos__camiseta"
-                    alt="Camiseta Conforto">
-                <div class="produtos__caixa_texto">
-                    <h3 class="produtos__subtitulo">Camiseta Conforto</h3>
-                    <p class="produtos__texto">Multicores e tamanhos. Tecido de algodão 100%, fresquinho para o verão
-                        Modelagem unissex.</p>
+                <div class="produtos__item">
+                    <picture>
+                        <source srcset="img/Desktop/Imagens_Cards/camiseta.png" media="(min-width:1200px)">
+                        <source srcset="img/Tablet/Imagens_Cards/camiseta.png" media="(min-width:768px)">
+                        <img src="img/Mobile/Imagens_cards/camiseta.png" class="produtos__imagem"
+                            alt="Camiseta Conforto">
 
-                    <h3 class="produtos__preco">R$ 70,00</h3>
-                    <a href="#" class="produtos__botao">Ver mais</a>
+                    </picture>
+                    <div class="produtos__caixa_texto">
+                        <h3 class="produtos__subtitulo">Camiseta Conforto</h3>
+                        <p class="produtos__texto">Multicores e tamanhos. Tecido de algodão 100%, fresquinho para o
+                            verão
+                            Modelagem unissex.</p>
+
+                        <h3 class="produtos__preco">R$ 70,00</h3>
+                        <button href="#" class="produtos__botao">Ver mais</button>
+                    </div>
+
                 </div>
-               
-            </div>
-            <div class="produtos__item">
-                <img src="img/Mobile/Imagens cards/Card calça.png" class="produtos__calca" alt="Calça  Alfaiataria">
-                <div class="produtos__caixa_texto">
-                    <h3 class="produtos__subtitulo">Calça Alfaiataria</h3>
-                    <p class="produtos__texto">Modelo Wide Leg alfaiataria em linho. Uma peça para a vida toda. Excelente escolha!</p>
+                <div class="produtos__item">
+                    <picture>
+                        <source srcset="img/Desktop/Imagens_Cards/calça.png" media="(min-width:1200px)">
+                        <source srcset="img/Tablet/Imagens_Cards/calça.png" media="(min-width:768px)">
+                        <img src="img/Mobile/Imagens_cards/calça.png" class="produtos__imagem" alt="Calça  Alfaiataria">
+                    </picture>
+                    <div class="produtos__caixa_texto">
+                        <h3 class="produtos__subtitulo">Calça Alfaiataria</h3>
+                        <p class="produtos__texto">Modelo Wide Leg alfaiataria em linho. Uma peça para a vida toda.
+                            Excelente escolha!</p>
 
-                    <h3 class="produtos__preco">R$ 180,00</h3>
-                    <a href="#" class="produtos__botao">Ver mais</a>
+                        <h3 class="produtos__preco">R$ 180,00</h3>
+                        <button href="#" class="produtos__botao">Ver mais</button>
+                    </div>
                 </div>
-            </div>
 
-            <div class="produtos__item">
-                <img src="img/Mobile/Imagens cards/Card tenis.png" class="produtos__tenis" alt="Tênis Chunky">
-                <div class="produtos__caixa_texto">
-                    <h3 class="produtos__subtitulo">Tênis Chunky</h3>
-                    <p class="produtos__texto">Snicker casual com solado mais alto e modelagem robusta. Modelo unissex
-                    </p>
+                <div class="produtos__item">
+                    <picture>
+                        <source srcset="img/Desktop/Imagens_Cards/tenis.png" media="(min-width:1200px)">
+                        <source srcset="img/Tablet/Imagens_Cards/tenis.png" media="(min-width:768px)">
+                        <img src="img/Mobile/Imagens_cards/tenis.png" class="produtos__imagem" alt="Tênis Chunky">
+                    </picture>
+                    <div class="produtos__caixa_texto">
+                        <h3 class="produtos__subtitulo">Tênis Chunky</h3>
+                        <p class="produtos__texto">Snicker casual com solado mais alto e modelagem robusta. Modelo
+                            unissex
+                        </p>
 
-                    <h3 class="produtos__preco">R$ 250,00</h3>
-                    <a href="#" class="produtos__botao">Ver mais</a>
+                        <h3 class="produtos__preco">R$ 250,00</h3>
+                        <button href="#" class="produtos__botao">Ver mais</button>
+                    </div>
                 </div>
-            </div>
 
-            <div class="produtos__item">
-                <img src="img/Mobile/Imagens cards/Card jaqueta jeans.png" class="produtos__jeans" alt="Jaqueta Jeans ">
-                <div class="produtos__caixa_texto">
-                    <h3 class="produtos__subtitulo">Jaqueta Jeans</h3>
-                    <p class="produtos__texto">Modelo unissex oversized com gola de camurça. Atemporal e autêntica!</p>
+                <div class="produtos__item">
+                    <picture>
+                        <source srcset="img/Desktop/Imagens_Cards/jaqueta_jeans.png" media="(min-width:1200px)">
+                        <source srcset="img/Tablet/Imagens_Cards/jaqueta_jeans.png" media="(min-width:768px)">
+                        <img src="img/Mobile/Imagens_cards/jaqueta_jeans.png" class="produtos__imagem"
+                            alt="Jaqueta Jeans ">
+                    </picture>
+                    <div class="produtos__caixa_texto">
+                        <h3 class="produtos__subtitulo">Jaqueta Jeans</h3>
+                        <p class="produtos__texto">Modelo unissex oversized com gola de camurça. Atemporal e autêntica!
+                        </p>
 
-                    <h3 class="produtos__preco">R$ 150,00</h3>
-                    <a href="#" class="produtos__botao">Ver mais</a>
+                        <h3 class="produtos__preco">R$ 150,00</h3>
+                        <button href="#" class="produtos__botao">Ver mais</button>
+                    </div>
                 </div>
-            </div>
 
-            <div class="produtos__item">
-                <img src="img/Mobile/Imagens cards/Cards óculos.png" class="produtos__oculos" alt="Oculos Redondo">
-                <div class="produtos__caixa_texto">
-                    <h3 class="produtos__subtitulo">Óculos Redondo</h3>
-                    <p class="produtos__texto">Armação metálica em grafite com lentes arredondadas. Sem erro!</p>
+                <div class="produtos__item">
+                    <picture>
+                        <source srcset="img/Desktop/Imagens_Cards/óculos.png" media="(min-width:1200px)">
+                        <source srcset="img/Tablet/Imagens_Cards/óculos.png" media="(min-width:768px)">
+                        <img src="img/Mobile/Imagens_cards/óculos.png" class="produtos__imagem" alt="Oculos Redondo">
+                    </picture>
+                    <div class="produtos__caixa_texto">
+                        <h3 class="produtos__subtitulo">Óculos Redondo</h3>
+                        <p class="produtos__texto">Armação metálica em grafite com lentes arredondadas. Sem erro!</p>
 
-                    <h3 class="produtos__preco">R$ 120,00</h3>
-                    <a href="#" class="produtos__botao">Ver mais</a>
+                        <h3 class="produtos__preco">R$ 120,00</h3>
+                        <button href="#" class="produtos__botao">Ver mais</button>
+                    </div>
                 </div>
-            </div>
-            <div class="produtos__item">
-                <img src="img/Mobile/Imagens cards/Card bolsa.png" class="produtos__bolsa" alt="Bolsa coringa">
-                <div class="produtos__caixa_texto">
-                    <h3 class="produtos__subtitulo">Bolsa Coringa</h3>
-                    <p class="produtos__texto">Bolsa camel em couro sintético de alta duração. Ideal para acompanhar você por uma vida!</p>
-    
-                    <h3 class="produtos__preco">R$ 120,00</h3>
-                    <a href="#" class="produtos__botao">Ver mais</a>
+                <div class="produtos__item">
+                    <picture>
+                        <source srcset="img/Desktop/Imagens_Cards/bolsa.png" media="(min-width:1200px)">
+                        <source srcset="img/Tablet/Imagens_Cards/bolsa.png" media="(min-width:768px)">
+                        <img src="img/Mobile/Imagens_cards/bolsa.png" class="produtos__imagem" alt="Bolsa coringa">
+                    </picture>
+                    <div class="produtos__caixa_texto">
+                        <h3 class="produtos__subtitulo">Bolsa Coringa</h3>
+                        <p class="produtos__texto">Bolsa camel em couro sintético de alta duração. Ideal para acompanhar
+                            você por uma vida!</p>
+
+                        <h3 class="produtos__preco">R$ 120,00</h3>
+                        <button href="#" class="produtos__botao">Ver mais</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="facilidades">
-        <h1 class="facilidades__titulo">Conheça todas as nossas facilidades</h1>
-        <div class="facilidades__flexbox">
-            <div class="facilidades__item">
-                <img src="img/Mobile/Ícones/x-diamond.png" alt="Pagamento pelo pix">
-                <div class="facilidades__item__texto">
-                    <h1>PAGUE PELO PIX</h1>
-                    <p>Ganhe 5% OFF em pagamentos via PIX</p>
+        <div class="facilidades">
+            <h1 class="facilidades__titulo">Conheça todas as nossas facilidades</h1>
+            <div class="facilidades__flexbox">
+                <div class="facilidades__item">
+                    <img src="img/Mobile/Ícones/x-diamond.png" alt="Pagamento pelo pix">
+                    <div class="facilidades__item__texto">
+                        <h1>PAGUE PELO PIX</h1>
+                        <p>Ganhe 5% OFF em pagamentos via PIX</p>
+                    </div>
                 </div>
-            </div>
 
-            <div class="facilidades__item">
-                <img src="img/Mobile/Ícones/arrow-repeat.png" alt="Troca Grátis">
-                <div class="facilidades__item__texto">
-                    <h1>TROCA GRÁTIS</h1>
-                    <p>Fique livre para trocar em até 30 dias.</p>
+                <div class="facilidades__item">
+                    <img src="img/Mobile/Ícones/arrow-repeat.png" alt="Troca Grátis">
+                    <div class="facilidades__item__texto">
+                        <h1>TROCA GRÁTIS</h1>
+                        <p>Fique livre para trocar em até 30 dias.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="facilidades__item">
-                <img src="img/Mobile/Ícones/flower1.png" alt="SUSTENTABILIDADE">
-                <div class="facilidades__item__texto">
-                    <h1>SUSTENTABILIDADE</h1>
-                    <p>Moda responsável, que respeita o meio ambiente.</p>
+                <div class="facilidades__item">
+                    <img src="img/Mobile/Ícones/flower1.png" alt="SUSTENTABILIDADE">
+                    <div class="facilidades__item__texto">
+                        <h1>SUSTENTABILIDADE</h1>
+                        <p>Moda responsável, que respeita o meio ambiente.</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    
+
+        <section class="newsletter">
+            <div class="newsletter__conteudo">
+                <p class="newsletter__texto">Quer receber nossas novidades, promoções exclusivas e 10% OFF na primeira
+                    compra? Cadastre-se!</p>
+                <div class="newsletter__input"></div>
+                <input type="email" class="newsletter__email" placeholder="Digite seu email">
+                <button class="newsletter__botao">Enviar</button>
+            </div>
+        </section>
+        <dialog  open class="modal__newsletter">
+            <div class="topo">
+                <div class="topo__conteudo">
+                    <img src="img/check-circle.png" alt="Icone Circulo certinho">
+                    <p>E-mail cadastrado com sucesso!</p>
+                </div>
+                <img src="img/fechar.png" class="close" alt="Icone fechar">
+            </div>
+            <div class="modal__conteudo">
+                Em breve você receberá novidades exclusivas da Meteora.
+            </div>
+        </dialog>
+        <dialog class="modal">
+            <div class="topo">
+                <div class="topo__conteudo">
+                    <img src="img/check-circle.png" alt="Icone Circulo certinho">
+                    <p>Confira detalhes sobre o produto</p>
+                </div>
+                <img src="img/fechar.png" class="close" alt="Icone fechar">
+            </div>
+
+            <div class="modal__conteudo">
+                <div class="modal__img">
+                    <img src="" id="imagemModal" alt="Imagem do Produto">
+                </div>
+                <div class="modal__divisao">
+                    <div class="modal__card">
+
+                        <h3 class="produtos__subtitulo" id="modal__produto">Subtitulo</h3>
+                        <p class="modal__texto" id="modal__texto__produto">Texto produto</p>
+                        <hr style="background:#000;">
+                        <h3 class="modal__preco produtos__preco" id="modal__preco__produto">Preço</h3>
+                        <p class="modal__vendido">Vendido e entregue por Riachuelo</p>
+
+                    </div>
+                    <hr style="background: #D8D8D8; margin: 1rem 0;">
+                    <div class="modal__cores">
+                        <p class="modal__subtitulo">Cores:</p>
+                        <div class="cores">
+                            <label for="cor__azul">
+                                <input type="radio" name="cores" checked value="Azul_Claro" id="cor__azul"
+                                    style="background:#75D7F0;"> Azul Claro
+
+                            </label>
+                            <label for="cor__offwhite">
+                                <input type="radio" name="cores" value="Offwhite" id="cor__offwhite"> Offwhite
+                            </label>
+                            <label for="cor__preto">
+                                <input type="radio" style="background-color:#000;" name="cores" value="Preto"
+                                    id="cor__preto"> Preto
+                            </label>
+                        </div>
+                    </div>
+                    <hr style="background: #D8D8D8; margin:1rem 0">
+                    <div class="modal__tamanho">
+                        <p class="modal__subtitulo">Tamanho:</p>
+                        <div class="tamanhos">
+                            <label for="tamanho__p">
+                                <input type="radio" name="tamanho" checked value="P" id="tamanho__p"> P
+                            </label>
+                            <label for="tamanho__pp">
+                                <input type="radio" name="tamanho" value="PP" id="tamanho__pp"> PP
+                            </label>
+                            <label for="tamanho__m">
+                                <input type="radio" name="tamanho" value="M" id="tamanho__m">
+                                M
+                            </label>
+                            <label for="tamanho__g">
+                                <input type="radio" name="tamanho" value="G" id="tamanho__g">
+                                G
+                            </label>
+                            <label for="tamanho__gg">
+                                <input type="radio" name="tamanho" value="GG" id="tamanho__gg">
+                                G
+                            </label>
+
+                        </div>
+                    </div>
+                    <button class="modal__botao">Adicionar à sacola</button>
+                </div>
+            </div>
+        </dialog>
     </main>
-    <footer>
-
+    <footer class="rodape">
+        <p class="rodape__texto">©2023 Desenvolvido por Gabriel - Alura | Projeto fictício sem fins comerciais.</p>
     </footer>
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js">
+    </script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+            slidesPerView: 1,
+            spaceBetween: 0,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+                clickable: 'true',
+            },
+            autoplay: {
+                delay: 3000,
+            },
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+
+        });
+    </script>
 </body>
 
 </html>

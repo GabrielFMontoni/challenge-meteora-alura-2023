@@ -7,6 +7,9 @@
     align-items: center;
     margin: auto;
 }
+picture{
+    font-size: 0;
+}
 .categorias__escolhas{
     display: flex;
     flex-wrap: wrap;
@@ -39,24 +42,6 @@
     .categorias__titulo{
         font-size: 30px;
     }
-    .camiseta{
-        content: url("../img/Tablet/Categorias/Categoria\ camiseta.png");
-    }
-    .bolsas{
-        content: url("../img/Tablet/Categorias/Categoria\ Bolsas.png");
-    }
-    .calcados{
-        content: url("../img/Tablet/Categorias/Categoria\ calçados.png");
-    }
-    .calcas{
-        content: url("../img/Tablet/Categorias/Categoria\ calças.png");
-    }
-    .casacos{
-        content: url("../img/Tablet/Categorias/Categoria\ casacos.png");
-    }
-    .oculos{
-        content: url("../img/Tablet/Categorias/Categoria\ óculos.png");
-    }
 }
 
 @media (min-width:1440px) {
@@ -66,23 +51,5 @@
     }
     .categorias__escolhas{
         width: 100%;
-    }
-    .camiseta{
-        content: url("../img/Desktop/Categorias/Categoria\ camiseta.png");
-    }
-    .bolsas{
-        content: url("../img/Desktop/Categorias/Categoria\ Bolsa.png");
-    }
-    .calcados{
-        content: url("../img/Desktop/Categorias/Categoria\ Calçados.png");
-    }
-    .calcas{
-        content: url("../img/Desktop/Categorias/Categoria\ calça.png");
-    }
-    .casacos{
-        content: url("../img/Desktop/Categorias/Categoria\ casacos.png");
-    }
-    .oculos{
-        content: url("../img/Desktop/Categorias/Categoria\ óculos.png");
     }
 } 

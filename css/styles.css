@@ -5,6 +5,9 @@
 @import "produtos.css";
 @import "facilidades.css";
 @import "categorias.css";
+@import "newsletter.css";
+@import "rodape.css";
+@import "modal.css";
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap');
 
 
@@ -12,7 +15,16 @@
     --preto-primario: #000000;
     --cinza-primario: #CCCCCC;
     --amarelo-primario: #DAFF01;
+    --swiper-pagination-bullet-width: 50px;
+    --swiper-pagination-bullet-height: 30px;
     --roxo-primario: #9353FF;
+    --swiper-pagination-bottom: 20px;
+    --swiper-pagination-bullet-horizontal-gap: 1px;
+    --swiper-pagination-bullet-inactive-opacity: 0;
+    --swiper-navigation-sides-offset: 50px;
+    --swiper-navigation-size: 100px;
+    --swiper-navigation-color: #ffffff00;
+    --swiper-pagination-bullet-opacity: 0;
     --vermelho-complementar: #EE6471;
     --laranja-complementar: #F87F46;
     --fonte-primaria: 'Inter', sans-serif;

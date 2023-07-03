@@ -39,8 +39,11 @@
 @media (min-width:1440px) {
     .facilidades__item{
         flex-direction: row;
+       
     }
     .facilidades__flexbox{
         display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }

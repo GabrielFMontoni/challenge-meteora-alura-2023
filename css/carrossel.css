@@ -1,21 +1,11 @@
-.carrossel{
+.carrossel {
     width: 100%;
-    background-color: #895fb5;
-}
-.carrossel__imagem{
-    width: 100%;
-    
-}
-@media (min-width:768px) {
-    .carrossel__imagem{
-        content: url("../img/Tablet/Banner\ carousel\ 1\ _\ 768.png");
-        height: auto;
-    }
+    font-size: 0;
 }
 
-@media (min-width:1440px) {
-   .carrossel__imagem{
-    content: url("../img/Desktop/Banner\ carousel\ 1\ _\ 1440\ \(1\).png");
-    height: auto;
-   } 
+.carrossel__imagem, .carrossel__imagem2, .carrossel__imagem3 {
+    width: 100%;
+
+
 }
+

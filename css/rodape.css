@@ -1,0 +1,15 @@
+.rodape{
+    background-color: var(--preto-primario);
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 4rem;
+    font-size: 13px;
+    font-weight: 200;
+    text-align: center;
+}
+
+@media (min-width:768px) {
+    
+}

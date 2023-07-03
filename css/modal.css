@@ -1,0 +1,138 @@
+.modal{
+    padding: 0;
+    width: 80vw;
+    top:5%;
+    position: fixed;
+    z-index: 11;
+    border: none;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, .25);
+    bottom: 5%;
+
+}
+.modal__newsletter{
+    padding: 0;
+    width: 80vw;
+    top:5%;
+    position: fixed;
+    z-index: 11;
+    border: none;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, .25);
+  
+
+}
+.modal::backdrop{
+    background: rgba(0, 0, 0, .7);
+}
+.topo{
+    display: flex;
+    padding: 1rem;
+    background-color: #000;
+    justify-content: center;
+    align-items: center;
+    gap: 1.3rem;
+    color: #FFF;
+}
+.topo__conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    gap: 1rem;
+}
+.modal__conteudo{
+    padding: 1rem 2rem;
+}
+.modal__card{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.modal__card hr, .modal__conteudo img{
+    width: 100%;
+}
+
+.modal__texto{
+      font-size: 15px;
+}
+.modal__preco{
+    font-weight: 700;
+}
+.modal__vendido{
+    font-size: 13px;
+    font-weight: 400;
+    color: #ADB5BD;
+}
+#modal__produto{
+    font-weight: 700;
+}
+.modal__conteudo label{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+.tamanhos{
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 1.5rem;
+}
+.cores{
+    display: flex;
+    gap: 1rem;
+}
+.modal__botao{
+    border: none;
+    cursor: pointer;
+    background-color: var(--roxo-primario);
+    color: #FFF;
+    padding: .5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 200;
+}
+
+input[type=radio]:checked{
+    border-color: #9353FF ;
+}
+
+@media (min-width:768px) {
+    .modal{
+        top: 2%;
+        bottom: 2%;
+    }
+    .modal__conteudo{
+        display: flex;
+    }
+    
+    .modal__divisao{
+        padding: 0 2rem;
+    }
+    #modal__produto{
+        font-size: 20px;
+    }
+    .modal__img{
+        width: 50%;
+    }
+    .modal__preco{
+        font-weight: 400;
+    }
+    .topo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .topo__conteudo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        gap: 1rem;
+    }
+
+}

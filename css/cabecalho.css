@@ -43,7 +43,9 @@ body{
     top: 0;
     width: 30%;
     padding: 1rem 1.5rem;
+    z-index: 2  ;
 }
+
 .cabecalho__menu__item{
     padding:  .5rem;
     color: #fff;
@@ -133,7 +135,7 @@ body{
         width: auto;
         font-size: 18px;
         position: inherit;
-       
+      
     }
     .label__hamburguer{
         display: none;

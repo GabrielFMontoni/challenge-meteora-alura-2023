@@ -39,7 +39,7 @@
     background-color: var(--roxo-primario);
     text-decoration: none;
     padding: .75rem 1rem;
-
+    border: none;
     color: #FFF;
 }
 .produtos__caixa_texto{
@@ -48,7 +48,10 @@
 }
 
 @media (min-width:768px) {
-    
+    .produtos__preco{
+        font-size: 23px;
+        padding-bottom: 0rem;
+    }
     .produtos__flex{
     flex-direction: row;
     flex-wrap: wrap;
@@ -76,24 +79,7 @@
     }
     .produtos__botao{
        margin: 2rem 0;
-    }
-    .produtos__camiseta{
-        content: url("../img/Tablet/Imagens\ Cards/camiseta.png");
-    }
-    .produtos__bolsa{
-        content: url("../img/Tablet/Imagens\ Cards/bolsa.png");
-    }
-    .produtos__tenis{
-        content: url("../img/Tablet/Imagens\ Cards/tenis.png");
-    }
-    .produtos__calca{
-        content: url("../img/Tablet/Imagens\ Cards/calça.png");
-    }
-    .produtos__jeans{
-        content: url("../img/Tablet/Imagens\ Cards/jaqueta\ jeans.png");
-    }
-    .produtos__oculos{
-        content: url("../img/Tablet/Imagens\ Cards/óculos.png");
+    cursor: pointer;
     }
 }
 
@@ -117,9 +103,7 @@
             width: 95%;
             font-size: 18px;
         }
-        .produtos__preco{
-            font-size: 23px;
-        }
+
         .produtos__caixa_texto{
             padding-bottom: 2rem;
         }
@@ -129,23 +113,5 @@
         }
         .produtos__botao{
            margin: 2rem 0;
-        }
-        .produtos__camiseta{
-            content: url("../img/Desktop/Imagens\ Cards/Camiseta.png");
-        }
-        .produtos__bolsa{
-            content: url("../img/Desktop/Imagens\ Cards/Bolsa.png");
-        }
-        .produtos__tenis{
-            content: url("../img/Desktop/Imagens\ Cards/Tenis.png");
-        }
-        .produtos__calca{
-            content: url("../img/Desktop/Imagens\ Cards/Calça.png");
-        }
-        .produtos__jeans{
-            content: url("../img/Desktop/Imagens\ Cards/Jaqueta.png");
-        }
-        .produtos__oculos{
-            content: url("../img/Desktop/Imagens\ Cards/óculos.png");
         }
     }
