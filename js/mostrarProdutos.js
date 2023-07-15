@@ -51,7 +51,7 @@ async function listarProdutos() {
      listaDeProdutos.forEach(produto => produtosListar.appendChild(constroiProduto(produto.imgDesktop, produto.imgTablet,produto.imgMobile,produto.titulo,produto.descricao,produto.preco)))
     }
     catch(e){
-        alert(e)
+        alert("Não foi possível listar os produtos")
     }
     
 }
