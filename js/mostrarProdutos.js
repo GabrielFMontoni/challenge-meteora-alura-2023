@@ -1,6 +1,6 @@
 import {
     consumirApi
-} from "./consumindoApi.js";
+} from "./main.js";
 
 const modal = document.querySelector('.modal')
 const produtosListar = document.querySelector('[data-produtos]')

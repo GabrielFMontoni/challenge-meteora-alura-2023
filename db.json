@@ -1,5 +1,4 @@
-{
-    "produtos":[{
+[{
         "imgDesktop":"img/Desktop/Imagens_Cards/camiseta.png",
         "imgTablet":"img/Tablet/Imagens_Cards/camiseta.png",
         "imgMobile":"img/Mobile/Imagens_cards/camiseta.png",
@@ -54,4 +53,3 @@
         "preco":"R$ 120,00"
     }
 ]
-}
