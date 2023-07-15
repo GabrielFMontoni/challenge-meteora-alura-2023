@@ -6,6 +6,7 @@
     justify-content: center;
     align-items: center;
     margin: auto;
+
 }
 picture{
     font-size: 0;
@@ -17,6 +18,7 @@ picture{
     justify-content: center;
     gap: 2.5rem;
     width: 87.5%;
+
 }
 .categorias__titulo{
     color: #212529;
@@ -27,6 +29,7 @@ picture{
 .categorias__item{
     display: flex;
     flex-direction: column;
+    cursor: pointer;
     
 }
 .categorias__subtitulos{

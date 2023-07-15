@@ -57,9 +57,9 @@
 
     </header>
     <main>
-        <form class="pesquisa">
-            <input type="text" class="pesquisa__input" placeholder="Digite o produto" name="Pesquisar" id="pesquisa">
-            <a href="#" class="pesquisa__botao">Search</a>
+        <form class="pesquisa" data-pesquisa-formulario>
+            <input type="text" class="pesquisa__input" placeholder="Digite o produto" name="Pesquisar" id="pesquisa" data-pesquisa>
+            <input type="submit" class="pesquisa__botao" value="Search" data-botao-pesquisa></input>
         </form>
         <div class="carrossel">
             <!-- Slider main container -->
@@ -106,7 +106,7 @@
         <div class="categorias">
             <h1 class="categorias__titulo">Busque por categoria:</h1>
             <ul class="categorias__escolhas">
-                <li class="categorias__item">
+                <li class="categorias__item" data-categoria>
                     <picture>
                         <source srcset="img/Desktop/Categorias/Categoria_camiseta.png" media="(min-width:1400x)">
                         <source srcset="img/Tablet/Categorias/Categoria_camiseta.png" media="(min-width:768px)">
@@ -116,7 +116,7 @@
                     <div class="categorias__subtitulos">Camisetas</div>
 
                 </li>
-                <li class="categorias__item">
+                <li class="categorias__item" data-categoria>
                     <picture>
                         <source srcset="img/Desktop/Categorias/Categoria_Bolsa.png" media="(min-width:1400px)">
                         <source srcset="img/Tablet/Categorias/Categoria_Bolsas.png" media="(min-width:768px)">
@@ -125,7 +125,7 @@
                     </picture>
                     <div class="categorias__subtitulos">Bolsas</div>
                 </li>
-                <li class="categorias__item">
+                <li class="categorias__item" data-categoria>
                     <picture>
                         <source srcset="img/Desktop/Categorias/Categoria_Calçados.png" media="(min-width1400px)">
                         <source srcset="img/Tablet/Categorias/Categoria_calçados.png" media="(min-width:768px)">
@@ -134,7 +134,7 @@
                     </picture>
                     <div class="categorias__subtitulos">Calçados</div>
                 </li>
-                <li class="categorias__item">
+                <li class="categorias__item" data-categoria>
                     <picture>
                         <source srcset="img/Desktop/Categorias/Categoria_calça.png" media="(min-width:1400px)">
                         <source srcset="img/Tablet/Categorias/Categoria_calças.png" media="(min-width:768px)">
@@ -143,7 +143,7 @@
                     </picture>
                     <div class="categorias__subtitulos">Calças</div>
                 </li>
-                <li class="categorias__item">
+                <li class="categorias__item" data-categoria>
                     <picture>
                         <source srcset="img/Desktop/Categorias/Categoria_casacos.png" media="(min-width:1400px)">
                         <source srcset="img/Tablet/Categorias/Categoria_casacos.png" media="(min-width:768px)">
@@ -152,7 +152,7 @@
                     </picture>
                     <div class="categorias__subtitulos">Casacos</div>
                 </li>
-                <li class="categorias__item">
+                <li class="categorias__item" data-categoria>
                     <picture>
                         <source srcset="img/Desktop/Categorias/Categoria_óculos.png" media="(min-width:1400px)">
                         <source srcset="img/Tablet/Categorias/Categoria_óculos.png" media="(min-width:768px)">
@@ -167,106 +167,9 @@
 
         <div class="produtos">
             <h1 class="produtos__titulo">Produtos que estão bombando!</h1>
-            <div class="produtos__flex">
-                <div class="produtos__item">
-                    <picture>
-                        <source srcset="img/Desktop/Imagens_Cards/camiseta.png" media="(min-width:1200px)">
-                        <source srcset="img/Tablet/Imagens_Cards/camiseta.png" media="(min-width:768px)">
-                        <img src="img/Mobile/Imagens_cards/camiseta.png" class="produtos__imagem"
-                            alt="Camiseta Conforto">
-
-                    </picture>
-                    <div class="produtos__caixa_texto">
-                        <h3 class="produtos__subtitulo">Camiseta Conforto</h3>
-                        <p class="produtos__texto">Multicores e tamanhos. Tecido de algodão 100%, fresquinho para o
-                            verão
-                            Modelagem unissex.</p>
-
-                        <h3 class="produtos__preco">R$ 70,00</h3>
-                        <button href="#" class="produtos__botao">Ver mais</button>
-                    </div>
-
-                </div>
-                <div class="produtos__item">
-                    <picture>
-                        <source srcset="img/Desktop/Imagens_Cards/calça.png" media="(min-width:1200px)">
-                        <source srcset="img/Tablet/Imagens_Cards/calça.png" media="(min-width:768px)">
-                        <img src="img/Mobile/Imagens_cards/calça.png" class="produtos__imagem" alt="Calça  Alfaiataria">
-                    </picture>
-                    <div class="produtos__caixa_texto">
-                        <h3 class="produtos__subtitulo">Calça Alfaiataria</h3>
-                        <p class="produtos__texto">Modelo Wide Leg alfaiataria em linho. Uma peça para a vida toda.
-                            Excelente escolha!</p>
-
-                        <h3 class="produtos__preco">R$ 180,00</h3>
-                        <button href="#" class="produtos__botao">Ver mais</button>
-                    </div>
-                </div>
-
-                <div class="produtos__item">
-                    <picture>
-                        <source srcset="img/Desktop/Imagens_Cards/tenis.png" media="(min-width:1200px)">
-                        <source srcset="img/Tablet/Imagens_Cards/tenis.png" media="(min-width:768px)">
-                        <img src="img/Mobile/Imagens_cards/tenis.png" class="produtos__imagem" alt="Tênis Chunky">
-                    </picture>
-                    <div class="produtos__caixa_texto">
-                        <h3 class="produtos__subtitulo">Tênis Chunky</h3>
-                        <p class="produtos__texto">Snicker casual com solado mais alto e modelagem robusta. Modelo
-                            unissex
-                        </p>
-
-                        <h3 class="produtos__preco">R$ 250,00</h3>
-                        <button href="#" class="produtos__botao">Ver mais</button>
-                    </div>
-                </div>
-
-                <div class="produtos__item">
-                    <picture>
-                        <source srcset="img/Desktop/Imagens_Cards/jaqueta_jeans.png" media="(min-width:1200px)">
-                        <source srcset="img/Tablet/Imagens_Cards/jaqueta_jeans.png" media="(min-width:768px)">
-                        <img src="img/Mobile/Imagens_cards/jaqueta_jeans.png" class="produtos__imagem"
-                            alt="Jaqueta Jeans ">
-                    </picture>
-                    <div class="produtos__caixa_texto">
-                        <h3 class="produtos__subtitulo">Jaqueta Jeans</h3>
-                        <p class="produtos__texto">Modelo unissex oversized com gola de camurça. Atemporal e autêntica!
-                        </p>
-
-                        <h3 class="produtos__preco">R$ 150,00</h3>
-                        <button href="#" class="produtos__botao">Ver mais</button>
-                    </div>
-                </div>
-
-                <div class="produtos__item">
-                    <picture>
-                        <source srcset="img/Desktop/Imagens_Cards/óculos.png" media="(min-width:1200px)">
-                        <source srcset="img/Tablet/Imagens_Cards/óculos.png" media="(min-width:768px)">
-                        <img src="img/Mobile/Imagens_cards/óculos.png" class="produtos__imagem" alt="Oculos Redondo">
-                    </picture>
-                    <div class="produtos__caixa_texto">
-                        <h3 class="produtos__subtitulo">Óculos Redondo</h3>
-                        <p class="produtos__texto">Armação metálica em grafite com lentes arredondadas. Sem erro!</p>
-
-                        <h3 class="produtos__preco">R$ 120,00</h3>
-                        <button href="#" class="produtos__botao">Ver mais</button>
-                    </div>
-                </div>
-                <div class="produtos__item">
-                    <picture>
-                        <source srcset="img/Desktop/Imagens_Cards/bolsa.png" media="(min-width:1200px)">
-                        <source srcset="img/Tablet/Imagens_Cards/bolsa.png" media="(min-width:768px)">
-                        <img src="img/Mobile/Imagens_cards/bolsa.png" class="produtos__imagem" alt="Bolsa coringa">
-                    </picture>
-                    <div class="produtos__caixa_texto">
-                        <h3 class="produtos__subtitulo">Bolsa Coringa</h3>
-                        <p class="produtos__texto">Bolsa camel em couro sintético de alta duração. Ideal para acompanhar
-                            você por uma vida!</p>
-
-                        <h3 class="produtos__preco">R$ 120,00</h3>
-                        <button href="#" class="produtos__botao">Ver mais</button>
-                    </div>
-                </div>
-            </div>
+            <ul class="produtos__flex" data-produtos>
+                
+            </ul>
         </div>
 
         <div class="facilidades">
@@ -298,12 +201,14 @@
         </div>
 
         <section class="newsletter">
+            <form data-formulario>
             <div class="newsletter__conteudo">
                 <p class="newsletter__texto">Quer receber nossas novidades, promoções exclusivas e 10% OFF na primeira
                     compra? Cadastre-se!</p>
                 <div class="newsletter__input">
-                <input type="email" class="newsletter__email" placeholder="Digite seu email">
-                <button class="newsletter__botao">Enviar</button>
+                <input type="email" class="newsletter__email" required placeholder="Digite seu email">
+                <input type="submit" class="newsletter__botao">Enviar</input>
+            </form>
             </div>
         </div>
         </section>
@@ -393,7 +298,7 @@
     <footer class="rodape">
         <p class="rodape__texto">©2023 Desenvolvido por Gabriel - Alura | Projeto fictício sem fins comerciais.</p>
     </footer>
-    <script src="main.js"></script>
+    <script src="js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js">
     </script>
     <script>
@@ -422,6 +327,8 @@
 
         });
     </script>
+    <script src="./js/mostrarProdutos.js" type="module"></script>
+    <script src="./js/filtrarProduto.js" type="module"></script>
 </body>
 
 </html>

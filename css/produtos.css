@@ -46,7 +46,9 @@
     padding: 1rem 1rem 2rem 1rem;
     
 }
-
+.close{
+    cursor: pointer;
+}
 @media (min-width:768px) {
     .produtos__preco{
         font-size: 23px;

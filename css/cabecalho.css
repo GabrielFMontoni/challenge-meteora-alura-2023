@@ -91,6 +91,7 @@ body{
 }
 .pesquisa__botao{
     padding: 15px;
+    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -168,6 +169,7 @@ body{
         color: #fff;
         font-weight: 400;
         padding: 10px;
+        background-color: #000;
         border: 1px solid #fff;
         font-size: 18px;
     }

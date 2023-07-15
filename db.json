@@ -1,0 +1,57 @@
+{
+    "produtos":[{
+        "imgDesktop":"img/Desktop/Imagens_Cards/camiseta.png",
+        "imgTablet":"img/Tablet/Imagens_Cards/camiseta.png",
+        "imgMobile":"img/Mobile/Imagens_cards/camiseta.png",
+        "titulo":"Camiseta Conforto",
+        "categoria":"camisetas",
+        "descricao":"Multicores e tamanhos. Tecido de algodão 100%, fresquinho para o verão. Modelagem unissex.",
+        "preco":"R$ 70,00"
+    },
+    {
+        "imgDesktop":"img/Desktop/Imagens_Cards/calça.png",
+        "imgTablet":"img/Tablet/Imagens_Cards/calça.png",
+        "imgMobile":"img/Mobile/Imagens_cards/calça.png",
+        "titulo":"Calça Alfaiataria",
+        "categoria":"calças",
+        "descricao":"Modelo Wide Leg alfaiataria em linho. Uma peça para a vida toda. Excelente escolha!",
+        "preco":"R$ 180,00"
+    },
+    {
+        "imgDesktop":"img/Desktop/Imagens_Cards/tenis.png",
+        "imgTablet":"img/Tablet/Imagens_Cards/tenis.png",
+        "imgMobile":"img/Mobile/Imagens_cards/tenis.png",
+        "titulo":"Tênis Chunky",
+        "categoria":"calçados",
+        "descricao":"Snicker casual com solado mais alto e modelagem robusta. Modelo unissex",
+        "preco":"R$ 250,00"
+    },
+    {
+        "imgDesktop":"img/Desktop/Imagens_Cards/jaqueta_jeans.png",
+        "imgTablet":"img/Tablet/Imagens_Cards/jaqueta_jeans.png",
+        "imgMobile":"img/Mobile/Imagens_cards/jaqueta_jeans.png",
+        "titulo":"Jaqueta Jeans",
+        "categoria":"casacos",
+        "descricao":"Modelo unissex oversized com gola de camurça. Atemporal e autêntica!",
+        "preco":"R$ 150,00"
+    },
+    {
+        "imgDesktop":"img/Desktop/Imagens_Cards/óculos.png",
+        "imgTablet":"img/Tablet/Imagens_Cards/óculos.png",
+        "imgMobile":"img/Mobile/Imagens_cards/óculos.png",
+        "titulo":"Óculos Redondo",
+        "categoria":"óculos",
+        "descricao":"Armação metálica em grafite com lentes arredondadas. Sem erro!",
+        "preco":"R$ 120,00"
+    },
+    {
+        "imgDesktop":"img/Desktop/Imagens_Cards/bolsa.png",
+        "imgTablet":"img/Tablet/Imagens_Cards/bolsa.png",
+        "imgMobile":"img/Mobile/Imagens_cards/bolsa.png",
+        "titulo":"Bolsa Coringa",
+        "categoria":"bolsas",
+        "descricao":"Bolsa camel em couro sintético de alta duração. Ideal para acompanhar você por uma vida!",
+        "preco":"R$ 120,00"
+    }
+]
+}
